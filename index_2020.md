@@ -62,13 +62,13 @@
 
             <br>
 
-            ## "Quelques conseils pour ne pas trop planter votre projet d'info"
+            ## Process et méthodes de développement logiciel
 
             <br>
             <br>
 
             #### Mines Paristech
-            #### 12 / 02 / 2021
+            #### 09 / 03 / 2020
           </textarea>
         </section>
         <section data-markdown>
@@ -78,7 +78,7 @@
             <img src="images/profile_picture.jpeg" id="profile-pic">
             <br>
 
-            Software Engineer @ VMware
+            Software Engineer @ Pivotal Labs
 
             [@Kehrlann](https://twitter.com/Kehrlann)
 
@@ -87,7 +87,7 @@
             daniel@garnier.wf
           </textarea>
         </section>
-       <section data-markdown>
+        <section data-markdown>
           <textarea data-template>
             ## Aujourd'hui, du logiciel partout
 
@@ -184,14 +184,14 @@
         </section>
         <section data-markdown data-background-image="images/waterfall.png" data-background-size="contain">
         </section>
+        <section data-markdown data-background-image="images/cost-of-change.gif" data-background-size="contain">
+        </section>
         <section data-markdown>
           <textarea data-template>
             > I believe in this concept but the implemention described above is risky and invites failure.
             >
             > Winston W. Royce
           </textarea>
-        </section>
-        <section data-markdown data-background-image="images/cost-of-change.gif" data-background-size="contain">
         </section>
         <section data-markdown data-background-image="images/waterfall-complete.png" data-background-size="contain">
         </section>
@@ -204,23 +204,78 @@
         </section>
         <section data-markdown>
           <textarea data-template>
-            - Scrum (1995)
-            - eXtreme Programming (XP) Explained, _Embrace Change_ (1999)
-            - Manifeste Agile (2001)
-            - The Lean Startup (2011)
+            ## Scrum (1995)
+
+            - 1986, "The New New product development game", HBR, Takeuchi & Nonaka
+            - 1995, Ken Schwaber & Jeff Sutherland présentent "Scrum development process" à [OOPSLA '95](http://jeffsutherland.com/oopsla/oo95wrkf.html)
+            - 2001, livre "Agile software development with Scrum", Schwaber & Beedle
+            - Idée principale: des développements **itératifs**
+
+            <br>
+            <br>
+
+            <img src="images/scrum-book.jpg" height="500px">
           </textarea>
         </section>
         <section data-markdown>
           <textarea data-template>
-            ## Un avant projet d'élève
+            ## eXtreme Programming (XP) Explained, _Embrace Change_ (1999)
 
-            > Il s'agirait d'un jeu vidéo de type RPG (Role Playing Game)
-            > Entre autre, je compte prévoir:
-            >
-            > - un système de sauvegarde de l'aventure, cela me ferait utiliser les écritures et lectures de fichiers.
-            > - différentes interfaces graphiques, pour la répartition des points gagnés lorsque le personnage monte d'un niveau, ou pour lancer des sorts, car j'aimerais que le joueur puisse dessiner des incantations pour pouvoir les lancer, et que l'algorithme les reconnaisse.
-            > - la gestion de différents métiers, de différentes ressources dans le jeu
-            > - des combats au tour par tour contre l'ordinateur
+            - Kent Beck
+            - Idée principale: des **valeurs**, pour organiser une équipe de développement
+
+            <br>
+            <br>
+
+            <img src="images/xp-explained.jpg" height="500px">
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            ## Manifeste Agile (2001)
+
+            - Idées solides sur ce qui fonctionne pour **fabriquer du logiciel qui fonctionne**
+            - https://agilemanifesto.org
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            ## Lean Software Development (2003)
+
+            - Mary & Tom Poppendieck
+            - Basé sur le "lean manufacturing"
+            - Idée importante: autonomie de l'équipe, on doit leur donner **des problèmes à résoudre, pas des solutions**
+
+            <br>
+            <br>
+
+            <img src="images/lean-software-development.jpg" height="500px">
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            ## Toyota Kata (2009)
+
+            - Mike Rother
+            - Idées intéressantes autour du **management**
+
+            <br>
+            <br>
+
+            <img src="images/toyota-kata.jpg" height="700px">
+          </textarea>
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            ## The Lean Startup (2011)
+
+            - Eric Ries
+            - Idée: il faut du lean aussi **dans le développement produit**
+
+            <br>
+            <br>
+
+            <img src="images/lean-startup.jpg" height="700px">
           </textarea>
         </section>
         <section data-markdown>
@@ -233,29 +288,14 @@
             ## https://agilemanifesto.org
           </textarea>
         </section>
-        <section data-markdown>
-          <textarea data-template>
-            ## Leçon #1
-
-            # Business value 
-
-            - Un programme pour votre "client"
-            - Qui lui sert à quelque chose
-          </textarea>
-        </section>
-        <section data-markdown>
-          <textarea data-template>
-            ## Leçon #2
-
-            # Itérations
-
-            - Un programme qui fonctionne
-            - Au moins une fois par semaine
-          </textarea>
-        </section>
         <section data-markdown data-background-image="images/de-risk-1.png" data-background-size="contain">
         </section>
         <section data-markdown data-background-image="images/de-risk-2.png" data-background-size="contain">
+        </section>
+        <section data-markdown>
+          <textarea data-template>
+            # ⏰ PAUSE ⏰
+          </textarea>
         </section>
         <section data-markdown data-background-image="images/lean-startup.jpg" data-background-size="contain">
         </section>
@@ -270,17 +310,6 @@
           <textarea data-template>
             # Méthodes particulières
           </textarea>
-        </section>
-        <section data-markdown>
-          <textarea data-template>
-            - Scrum
-            - Kanban
-            - eXtreme Programming
-            - SAFe / Scrum@scale / Large-Scale Scrum
-            - ...
-          </textarea>
-        </section>
-        <section data-markdown data-background-image="images/scrum-artifacts.png" data-background-size="contain">
         </section>
         <section data-markdown data-background-image="images/scrum-1.jpg" data-background-size="contain">
         </section>
